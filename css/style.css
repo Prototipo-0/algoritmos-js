@@ -1,0 +1,51 @@
+body{
+    margin: 0; /*= Margen externa*/
+    padding: 0; /*= Margen Interna*/
+    background: url("../img/DMlogoback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh; /*Alto de la pantalla*/
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+p,button,input,label{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: #000000;
+    font-size: 30px;
+    margin-top: 50px;
+    border: 2px solid #ffd700;
+}
+h2{
+    color: #ff0f0f;
+    font-size: 45px; /* font-size: ; = Tamaño de fuente*/
+}
+p{
+    color: #ff0000;
+    font-size: 25px;
+    margin-bottom: 100px;
+    font-weight:400;
+}
+button{
+    padding: 5px 25px;
+    margin: 10px;
+    background: goldenrod;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    font-size: 17px;
+    color: #ffffff;
+    transition: 0.8s;
+}
+/* Hover es un estado de los elementos que se activa al pasar el cursor sobre estos*/ 
+button:hover{
+    background: transparent;
+    color: #ffffff;
+    padding: 15px 40px;
+}
